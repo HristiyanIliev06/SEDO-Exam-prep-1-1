@@ -16,6 +16,7 @@ function calculateAndDisplay(fn) {
   }
 
   const a = Number(rawA);
+
   const b = Number(rawB);
   document.getElementById("result").textContent = fn(a, b);
 }
